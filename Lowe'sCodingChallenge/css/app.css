@@ -1,0 +1,97 @@
+body {
+    background: #042029;
+    color: #eae3cb;
+}
+
+#container {
+    width: 100%;
+    margin: 0 auto;
+    border: 2px solid white;
+}
+
+#hero-container{
+    width: 90%;
+    margin: 10px auto;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+#grid-container{
+    width: 90%;
+    margin: 10px auto;
+    /*border: 2px solid yellow;*/
+    text-align: center;
+}
+
+#hero-container>div{
+    float:left;
+    padding:20px;
+    box-sizing: border-box;
+}
+
+.hero-text{
+    height:300px;
+    overflow: auto;
+}
+
+.hero-text>strong{
+    color:darkorange;
+}
+
+div.hero-button{
+    text-align: center;
+    margin-top: 40px;
+}
+
+div.hero-button>p{
+    font-weight: 300;
+    font-size: x-large;
+    margin-top: 25px;
+}
+
+#grid-container>div{
+    padding: 20px;
+}
+
+#grid-container>div>div{
+    border: 2px solid white;
+    border-radius: 5px;
+    float: left;
+    height:350px;
+    overflow: hidden;
+    padding:10px;
+    box-sizing: border-box;
+}
+
+#grid-container>div>div:hover{
+    background-color:#EAE3CB;
+    color:#042029;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content:"";
+    display:table;
+}
+.clearfix:after {
+    clear:both;
+}
+
+#grid-container>div>div li{
+    list-style: none;
+    margin:10px;
+}
+
+#grid-container>div>div div.text{
+    width:60%;
+    margin:0 auto;
+}
+
+#grid-container>div>div h6.price{
+    font-weight: 300;
+    font-size: xx-large;
+}
+
+#grid-container>div>div button, #hero-container button{
+    color: #101010;
+}
